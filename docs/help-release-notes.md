@@ -1,5 +1,5 @@
 ---
-id: introduction-release-notes
+id: help-release-notes
 title: Release notes
 sidebar_label: Release notes
 ---

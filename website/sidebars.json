@@ -1,8 +1,7 @@
 {
   "docs": {
     "Introduction": [
-      "introduction",
-      "introduction-release-notes"
+      "introduction"
     ],
     "Getting Started": [
       "installation",
@@ -36,7 +35,9 @@
       "guides-notification",
       "guides-others"
     ],
-    "Help": [
+    "Help / Problems": [
+      "help-problems",
+      "help-release-notes",
       "contact"
     ]
   }

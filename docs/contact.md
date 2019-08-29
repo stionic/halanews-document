@@ -4,6 +4,8 @@ title: Contact
 sidebar_label: Contact
 ---
 
+> Please try search your [problems](help-problems.md) before contact us.
+
 We always want to bring the best value to everyone. So any questions you can create ticket at [Stionic Support](https://stionic.com/support/) (GMT +7).
 
 In addition, you can contact us in the following ways for fastest support (Highly Recommend):
