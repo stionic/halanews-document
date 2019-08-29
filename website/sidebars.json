@@ -1,7 +1,8 @@
 {
   "docs": {
     "Introduction": [
-      "introduction"
+      "introduction",
+      "introduction-release-notes"
     ],
     "Getting Started": [
       "installation",
