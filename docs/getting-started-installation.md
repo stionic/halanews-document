@@ -6,6 +6,12 @@ sidebar_label: Installation
 
 > You need to connect to the network
 
+## New to the Command Line?
+
+This product was developed based on the Ionic framework, so you need to know about command-line tools. Something like Windows Command Prompt, PowerShell, Terminal,…
+
+If you’re new to the command line, please read [Ionic Command line tutorial](http://blog.ionicframework.com/new-to-the-command-line/).
+
 ## Install Cordova and Ionic framework
 
 1. Goto [Download page Node.js](https://nodejs.org/en/download/) get LTS version (make sure is LTS version).
