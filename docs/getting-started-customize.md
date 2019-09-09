@@ -16,6 +16,20 @@ Run [`ionic serve`](https://ionicframework.com/docs/v3/cli/serve/) to start a lo
 
 ![](assets/customize-run-on-browser.png)
 
+## Customize intro slide
+
+Intro slide image show only first time when users open app after installed. You can use it for show Tips, Guides, Introduction your company,...
+
+Default it will not show, for active intro slide image in your app you need active in `/src/app/app.component.ts` like image below
+
+![](assets/customize-active-intro.png)
+
+Default intro slide will have 3 images locate in `assets/imgs/intro` you can replace it.
+
+For remove or add more images you need edit `/src/app/app.html`. In `ion-slides` tag each `ion-slide` is one image, just duplicate then change `<img src` or remove if you want
+
+![](assets/customize-change-intro.png)
+
 ## Login & Social login
 
 > Do this customize if you want your app have a login function.
