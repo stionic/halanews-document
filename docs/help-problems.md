@@ -26,5 +26,5 @@ Solution:
 
     ```
     ionic cordova platform rm ios
-    cordova platform add ios
+    ionic cordova platform add ios
     ```
