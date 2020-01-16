@@ -88,21 +88,14 @@ You can replace any image you want (like menu image, nodata image, thumbnail pos
 
 To change the color of the application please edit at `/src/theme/variables.scss`
 
-Open it with a text editor and edit value in `$colors`
+Open it with a text editor and edit value
 
 Change the hex color and all corresponding colors in the application will change.
 
+You can use [Ionic colors tool](https://ionicframework.com/docs/theming/colors#new-color-creator) if want to add new color
+
 ![](assets/customize-change-colors.png)
 
-## RTL Language
-
-The application support RTL language, if you want you just edit the 2 files:
-
-* `/src/index.html`
-
-* `/src/theme/variables.scss`
-
-![](assets/customize-rtl-language.png)
 
 ## Multiple languages & Translate app
 
@@ -120,6 +113,6 @@ To add multiple languages, duplicate any translated file and rename it to the la
 
 To translate the application, simply edit the `/src/assets/i18n/[language].json` file.
 
-> Data in JSON format, just edit the value, never modify the key and the value of key named `"value"` if you don’t understand.
+> Data in JSON format, just edit the value, never modify the key and the value of key start with `"_"` if you don’t understand.
 
 ![](assets/customize-multiple-languages-translate.png)
