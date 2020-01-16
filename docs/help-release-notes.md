@@ -6,6 +6,12 @@ sidebar_label: Release notes
 
 All notable changes to this project will be documented here.
 
+## 1.1.0
+- Use Ionic 4 
+- Update Cordova plugin
+- Change design
+- Improve performance
+
 ## 1.0.12 
 - Margin close intro button, default disabled intro 
 - Support notification deeplinks without request 
