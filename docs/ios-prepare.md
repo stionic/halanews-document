@@ -10,8 +10,7 @@ sidebar_label: Prepare
 For build Ionic/Cordova sources to iOS XCode project simple run follow command:
 
 ```
-ionic build
-cordova platform add ios
+ionic cordova platform add ios
 ```
 
 After run command, it will create `/platforms/ios`
