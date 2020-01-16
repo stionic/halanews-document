@@ -57,16 +57,18 @@ root-directory
 ├── resources
 ├── src
 │   ├── app
+│   │   ├── components
+│   │   ├── home
+│   │   ├── pages
+│   │   ├── pipes
+│   │   ├── services
 │   ├── assets
-│   ├── components
-│   ├── pages
-│   ├── pipes
-│   ├── providers
+│   ├── environments
 │   ├── theme
-│   ├── validators
+│   ├── global.scss
 │   ├── index.html
-│   ├── manifest.json
-│   └── service-worker.js
+│   ├── main.ts
+│   └── test.ts
 ├── config.xml
 ├── ionic.config.json
 ├── package.json
