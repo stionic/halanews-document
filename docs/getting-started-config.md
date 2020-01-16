@@ -10,9 +10,9 @@ sidebar_label: Config your app
 
 Sure, you need to let the app know the URL of your website so that the app can connect.
 
-Very easy, you just need to edit “one line” in `/src/assets/i18n/english.json`
+Very easy, you just need to edit “one line” in `/src/assets/i18n/en.json`
 
-Open english.json file with a text editor and edit `general.config.url` into your URL (line 4)
+Open en.json file with a text editor and edit `general.config.url` into your URL (line 4)
 
 > Make sure it is final url, after all rediects if have (like forcing HTTPS, www,..)
 

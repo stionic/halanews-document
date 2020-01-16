@@ -108,15 +108,15 @@ The application support RTL language, if you want you just edit the 2 files:
 
 The application support multiple languages, archived at `/src/assets/i18n`
 
-Include config file (languages.json) and translated files (english.json, hindi.json,…)
+Include config file (languages.json) and translated files (en.json, vi.json,…)
 
 ![](assets/customize-multiple-languages-config.png)
 
 To add multiple languages, duplicate any translated file and rename it to the language identifier. Then declarations in `languages.json`.
 
-> Example: duplicate `english.json` and rename to `hindi.json`. Then declarations in `languages.json` as image above.
+> Example: duplicate `en.json` and rename to `vi.json`. Then declarations in `languages.json` as image above.
 
-[language] below is a replacement for translated file (english.json, hindi.json,…)
+[language] below is a replacement for translated file (en.json, vi.json,…)
 
 To translate the application, simply edit the `/src/assets/i18n/[language].json` file.
 
