@@ -9,8 +9,7 @@ sidebar_label: Prepare
 For build Ionic/Cordova sources to Android project simple run follow command:
 
 ```
-ionic build
-cordova platform add android
+ionic cordova platform add android
 ```
 
 After run command, it will create `/platforms/android`

@@ -7,9 +7,10 @@ sidebar_label: Deploy
 Run everytime before you build want to build app in Android Studio when have changed code in `/src`
 
 ```
-ionic build --prod
-cordova prepare android
+ionic cordova prepare android --prod
 ```
+
+If building debug version then you should not use `--prod` for save time
 
 ## Opening a Project in Android Studio
 
