@@ -6,8 +6,6 @@ sidebar_label: Config your app
 
 ## Connect to WordPress website
 
-### Config website url
-
 Sure, you need to let the app know the URL of your website so that the app can connect.
 
 Very easy, you just need to edit “one line” in `/src/assets/i18n/en.json`
@@ -19,16 +17,6 @@ Open en.json file with a text editor and edit `general.config.url` into your URL
 Tips: you can open your website in browser and wait all load done then copy url in Address bar
 
 ![](assets/config-website-url.png)
-
-### Config Cleartext traffic
-
-> You need do this config if your website is HTTP (if is HTTPS then no need)
-
-Edit `resources/android/xml/network_security_config.xml` add `domain includeSubdomains="true"` for your domain
-
-Example you config [website url](getting-started-config.md#config-website-url) is `http://hala.stionic.com/` then you need add domain `hala.stionic.com` like image below
-
-![](assets/config-website-cleartext.png)
 
 ## App Information
 
