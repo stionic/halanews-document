@@ -18,6 +18,14 @@ Tips: you can open your website in browser and wait all load done then copy url 
 
 ![](assets/config-website-url.png)
 
+## Terms and Conditions page
+
+Default you simple create page in WordPress with slug `app-terms` then app will open this page when click Terms and Conditions in Login.
+
+If you want to change slug just edit in `/src/assets/i18n/en.json`
+
+Open en.json file with a text editor and edit `general.config._terms_login` (line 5)
+
 ## App Information
 
 The application should be unique, so you need to provide application information such as ID, version, application name to make sure it is unique.
