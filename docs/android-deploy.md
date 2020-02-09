@@ -32,7 +32,7 @@ If building debug version then you should not use `--prod` for save time
 
 You need make sure that all working fine before continue Deploy Android application.
 
-When Gradle Sync process completed, make sure it show `synced successfully` and have no any <span style="color:red">`WARNING` with RED color</span>
+When Gradle Sync process completed, make sure it show `synced successfully` and have no any `WARNING` with RED color
 
 Otherwise, please try [Do Refactor Gradle](android-deploy.md#do-refactor-gradle) first before contact support.
 
@@ -40,7 +40,7 @@ Otherwise, please try [Do Refactor Gradle](android-deploy.md#do-refactor-gradle)
 
 ### Do Refactor Gradle
 
-If your Gralde Sync process have <span style="color:red">`WARNING` with RED color</span> and failed, can not build application then try Do Refactor:
+If your Gralde Sync process have `WARNING` with RED color and failed, can not build application then try Do Refactor:
 
 1. Select `Build` panel and hide `Event Log` panel if it showing
 

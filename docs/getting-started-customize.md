@@ -109,7 +109,7 @@ To add multiple languages, duplicate any translated file and rename it to the la
 
 > Example: duplicate `en.json` and rename to `vi.json`. Then declarations in `languages.json` as image above.
 
-> <span style="color:red">IMPORTANT:</span> language file name can not have special characters (just a-z). We highly recommend search your [language code ISO 639-1 two-letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for auto detect device language.
+> IMPORTANT: language file name can not have special characters (just a-z). We highly recommend search your [language code ISO 639-1 two-letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for auto detect device language.
 
 [language] below is a replacement for translated file (en.json, vi.json,…)
 
