@@ -6,6 +6,12 @@ sidebar_label: Release notes
 
 All notable changes to this project will be documented here.
 
+## 1.1.1
+- Add Firebase analytics
+- Support secret posts content required Rewards ads
+- Improve functions logic
+- Fix some small bugs
+
 ## 1.1.0
 - Use Ionic 4 
 - Update Cordova plugin
