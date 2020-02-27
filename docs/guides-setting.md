@@ -30,7 +30,7 @@ Login to the WordPress Dashboard, then choose Stionic menu
 
 - Version: the latest version of the app, older versions will display an update prompt.
 
-- Header Allow Origin: customize Origin header, if empty will be `'*'`
+- Header Allow Origin: customize Origin header, if empty will be request origin
 
 - Extended Config: Other config in JSON format can get in application for easy customize
 
