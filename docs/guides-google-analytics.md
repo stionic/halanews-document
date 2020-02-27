@@ -6,20 +6,28 @@ sidebar_label: Google Analytics
 
 Google Analytics is a freemium analytics service, that tracks and reports traffic. You can use this great service to track user behavior, also of concern on WordPress mobile app to have good tactics.
 
-* First, login to [Google Analytics](https://analytics.google.com/), if you never used Analytics before, click `Sign Up`. Otherwise, you can create a new property.
+Our app use Google Firebase Analytics for tracking users behavior.
 
-![](assets/guides-google-analytics-signup.png)
+First, login to [Firebase console](https://console.firebase.google.com/), if you never used before, click `Sign Up`. Otherwise, you can create a new project or select project you want use for application.
 
-* Select property for `Website`, then fill in information and click `Get Tracking ID`. As a result you will get a Tracking ID, config it in [General Setting](guides-setting.md#general-setting).
+![](assets/guides-google-analytics-project.png)
 
-![](assets/guides-google-analytics-create-property.png)
+Click `+ Add app` then select platform. Our app support Android and iOS
 
-* Now click `ADMIN` go to Admin page. In View, click `Create new view`
+![](assets/guides-google-analytics-create-app.png)
 
-![](assets/guides-google-analytics-admin.png)
+* For Android platform you just fill package id you [config in /config.xml](getting-started-config.md#app-information). 
 
-![](assets/guides-google-analytics-create-view.png)
+![](assets/guides-google-analytics-android.png)
 
-* Select `Mobile app`, input infomation and click `Create View`. Done!
+* Then you just download config file and copy it to root project folder (/Sources)
 
-![](assets/guides-google-analytics-create-view-app.png)
+![](assets/guides-google-analytics-android-download.png)
+
+* Click `+ Add app` again then do same.
+
+![](assets/guides-google-analytics-ios-download.png)
+
+Final you will have 2 file in root project folder like below image
+
+![](assets/guides-google-analytics-config-file.png)
