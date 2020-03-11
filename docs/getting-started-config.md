@@ -34,6 +34,24 @@ Just open `/config.xml` file with a text editor and edit
 
 ![](assets/config-application-information.png)
 
+## Google Firebase Analytics
+
+Our app support Google Firebase Analytics and it required config, if not will lead to problem when build.
+
+You can read [Guide Googgle Firebase Analytics](guides-google-analytics.md) document.
+
+If you do not want use this function then need remove config for build without problem.
+
+Open `/config.xml` file with a text editor and remove 2 line
+
+```
+<resource-file src="google-services.json" target="app/google-services.json" />
+...
+<resource-file src="GoogleService-Info.plist" />
+```
+
+![](assets/config-remove-google-analytics.png)
+
 ## Deeplinks (optional)
 
 [Ionic Deeplinks Plugin](https://github.com/ionic-team/ionic-plugin-deeplinks) makes it easy to respond to deeplinks through custom URL schemes and Universal/App Links on iOS and Android.
