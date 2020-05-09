@@ -4,6 +4,34 @@ title: Others Guides
 sidebar_label: Others
 ---
 
+## Stionic application panel
+
+Our Stionic core plugin added Stionic application panel when edit posts / pages for some functions
+
+If when edit posts / pages not see it then you need enable in `More tools & options -> Options`
+
+![](assets/guides-others-stionic-application-panel.png)
+
+### Show posts in Video / Images tab
+
+Video and Images tab in home page of application show posts have format is Play / Images.
+
+When edit posts you just setting format and save.
+
+![](assets/guides-others-posts-format.png)
+
+### Show reward ads for read posts
+
+You can setting required users view Rewards ads for read posts content.
+
+Example:
+
+Empty - not required view Rewards ads for this posts
+
+1 - Users always need view Rewards ads when want to read this posts
+
+10 - After view Rewards ads users have 10 times read this posts (Rewards ads will show again in 11, 21, 31,...)
+
 ## Homepage Slide
 
 The home page slide will display sticky posts, just set "Stick this post to the front page" while editing posts.
