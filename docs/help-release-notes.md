@@ -6,6 +6,14 @@ sidebar_label: Release notes
 
 All notable changes to this project will be documented here.
 
+## 1.1.2
+- Update Ionic 5
+- Add Logo in header home page
+- Android: add click back button twice in home page to exit app
+- Update cordova plugin, hidden Facebook login
+- Add alert accept Terms for GDPR
+- Fix some small bugs
+
 ## 1.1.1
 - Add Firebase analytics
 - Support secret posts content required Rewards ads
