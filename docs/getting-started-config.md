@@ -34,6 +34,8 @@ The application should be unique, so you need to provide application information
 
 Just open `/config.xml` file with a text editor and edit
 
+Package name ID normal is reverse of your website domain. Example hala.stionic.com -> com.stionic.hala
+
 ![](assets/config-application-information.png)
 
 ## Google Firebase Analytics
