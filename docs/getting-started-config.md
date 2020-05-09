@@ -20,11 +20,13 @@ Tips: you can open your website in browser and wait all load done then copy url 
 
 ## Terms and Conditions page
 
-Default you simple create page in WordPress with slug `app-terms` then app will open this page when click Terms and Conditions in Login.
+Default you simple create page in WordPress with slug `app-terms` then app will open this page first time users open app or when click Terms and Conditions in Login.
 
 If you want to change slug just edit in `/src/assets/i18n/en.json`
 
-Open en.json file with a text editor and edit `general.config._terms_login` (line 5)
+Open en.json file with a text editor and edit `general.config._terms` and `general.config._terms_login` (line 5-11)
+
+If `slug` is empty then app will hidden all terms alert.
 
 ## App Information
 
