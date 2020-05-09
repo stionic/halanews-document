@@ -7,9 +7,10 @@
 
 module.exports = {
   docs: {
-    Introduction: ["introduction"],
+    "Introduction": ["introduction"],
     "Getting Started": ["installation", "config", "customize"],
-    Build: [
+    "Build": [
+      "build",
       {
         type: "category",
         label: "Android",
@@ -21,7 +22,7 @@ module.exports = {
         items: ["ios-installation", "ios-prepare", "ios-deploy"]
       }
     ],
-    Guides: [
+    "Guides": [
       "guides-setting",
       "guides-admob",
       "guides-google-analytics",
