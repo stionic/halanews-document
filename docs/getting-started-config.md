@@ -53,6 +53,11 @@ Open `/config.xml` file with a text editor and remove 2 line
 ...
 <resource-file src="GoogleService-Info.plist" />
 ```
+Then run follow command for remove Firebase Analytics plugin:
+
+```
+ionic cordova plugin rm cordova-plugin-firebase-analytics
+```
 
 ![](assets/config-remove-google-analytics.png)
 
