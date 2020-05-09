@@ -89,22 +89,33 @@ change yourdomain.com to example.com, then every time browser open http://exampl
 
 ![](assets/config-deeplinks.png)
 
-## Facebook native SDK (optional)
+You also need config in `WordPress admin -> Stionic -> DeepLinks`, and now your app will support deeplinks open app from website by click Application button.
 
-> You need config it if want to use/customize Facebook native SDK in application (like Social login, App events,..)
+In case you want phone automatic open app when open url (without users action) then you need config App/Universal link in your website.
 
-Open `/package.json` file and edit `cordova.plugins.cordova-plugin-facebook4`
+Each website/app will have different config, you can read Offical document here:
 
-![](assets/config-facebook-native-sdk.png)
+- Android (App link): [Declare website associations](https://developer.android.com/training/app-links/verify-site-associations#web-assoc)
+
+- iOS (Universal link): [Add the Apple App Site Association File](https://developer.apple.com/documentation/safariservices/supporting_associated_domains_in_your_app#3001215)
 
 ## Google AdMob ads (optional)
 
 If you want to show [AdMob ads](guides-admob-ads.md) in your app then need to config AdMob App ID as [AdMob](https://developers.google.com/admob/ios/quick-start#update_your_infoplist) [required](https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml)
 
-For Android, open `/package.json` file and edit AdMob App ID `cordova.plugins.cordova-plugin-admob-free`
-
-For iOS, open `/config.xml` file and edit `GADApplicationIdentifier`
+Open `/package.json` file and edit AdMob App ID `cordova.plugins.com-stionic-admob-free`
 
 Read document [Find your app IDs](https://support.google.com/admob/answer/7356431?hl=en).
 
 ![](assets/config-admob-app-id.png)
+
+## Facebook native SDK (removed)
+
+[Apple required Apple sign in](https://developer.apple.com/app-store/review/guidelines/#sign-in-with-apple) if your app have other social login. If not they will reject your app in Store. So Facebook login current temp removed.
+
+<!-- 
+> You need config it if want to use/customize Facebook native SDK in application (like Social login, App events,..)
+
+Open `/package.json` file and edit `cordova.plugins.cordova-plugin-facebook4`
+
+![](assets/config-facebook-native-sdk.png) -->
