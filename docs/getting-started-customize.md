@@ -62,7 +62,7 @@ define('JWT_AUTH_CORS_ENABLE', true);
 
 > ‘your-top-secrect-key’ should change to any secret random string. Let your cat jump on keyboard :)
 
-If you want allow users login with Facebook, install [Nextend Social Login](https://wordpress.org/plugins/nextend-facebook-connect/) and config it.
+<!-- If you want allow users login with Facebook, install [Nextend Social Login](https://wordpress.org/plugins/nextend-facebook-connect/) and config it.
 
 ![](assets/customize-social-login-nextend-facebook.png)
 
@@ -76,7 +76,7 @@ https://developers.facebook.com/docs/facebook-login/ios
 
 - Android: Step 5, 6 and 7 in this document:
 
-https://developers.facebook.com/docs/facebook-login/android
+https://developers.facebook.com/docs/facebook-login/android -->
 
 ## Change images
 
