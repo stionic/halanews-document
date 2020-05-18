@@ -14,7 +14,7 @@ ionic cordova platform add android
 
 After run command, it will create `/platforms/android`
 
-![](assets/build-android-add-platform.png)
+![](/halanews-document/docs/assets/build-android-add-platform.png)
 
 ## Change Icons and Splash screens
 
@@ -44,4 +44,4 @@ Make sure your image has only "one layer" to support entire device, including th
 
 > You can also use the [Android assets studio tools](http://romannurik.github.io/AndroidAssetStudio/icons-notification.html#source.type=image&source.space.trim=1&source.space.pad=0&name=ic_stat_onesignal_default), after downloading the .zip file, extract to `/resources/stionic` folder.
 
-![](assets/build-android-notification-icon.png)
+![](/halanews-document/docs/assets/build-android-notification-icon.png)

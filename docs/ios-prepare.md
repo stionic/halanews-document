@@ -15,7 +15,7 @@ ionic cordova platform add ios
 
 After run command, it will create `/platforms/ios`
 
-![](assets/build-ios-add-platform.png)
+![](/halanews-document/docs/assets/build-ios-add-platform.png)
 
 ## Change Icons and Splash screens
 

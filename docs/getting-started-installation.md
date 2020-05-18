@@ -32,7 +32,7 @@ Then just install plugin [Stionic core](https://wordpress.org/plugins/stionic-co
 
 Extract Sources folder in .zip you get when purchase to wherever you want, you also can change Sources folder name.
 
-![](assets/extract-sources.png)
+![](/halanews-document/docs/assets/extract-sources.png)
 
 > All Terminal commands from now should run in Sources folder
 
@@ -40,13 +40,13 @@ Extract Sources folder in .zip you get when purchase to wherever you want, you a
 
 1. Run the Node modules initialization script `npm install`
 
-![](assets/node-modules-install.png)
+![](/halanews-document/docs/assets/node-modules-install.png)
 
 ## Verifying Installation
 
 After installation process you need check and verify that all working fine by run `ionic info`
 
-![](assets/verifying-installation.png)
+![](/halanews-document/docs/assets/verifying-installation.png)
 
 Along with previously existing files and directories, your root project directory will now contain a structure similar to:
 

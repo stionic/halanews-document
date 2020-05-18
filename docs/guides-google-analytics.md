@@ -10,24 +10,24 @@ Our app use Google Firebase Analytics for tracking users behavior.
 
 First, login to [Firebase console](https://console.firebase.google.com/), if you never used before, click `Sign Up`. Otherwise, you can create a new project or select project you want use for application.
 
-![](assets/guides-google-analytics-project.png)
+![](/halanews-document/docs/assets/guides-google-analytics-project.png)
 
 Click `+ Add app` then select platform. Our app support Android and iOS
 
-![](assets/guides-google-analytics-create-app.png)
+![](/halanews-document/docs/assets/guides-google-analytics-create-app.png)
 
 * For Android platform you just fill package id you [config in /config.xml](getting-started-config.md#app-information). 
 
-![](assets/guides-google-analytics-android.png)
+![](/halanews-document/docs/assets/guides-google-analytics-android.png)
 
 * Then you just download config file and copy it to root project folder (/Sources)
 
-![](assets/guides-google-analytics-android-download.png)
+![](/halanews-document/docs/assets/guides-google-analytics-android-download.png)
 
 * Click `+ Add app` again then do same.
 
-![](assets/guides-google-analytics-ios-download.png)
+![](/halanews-document/docs/assets/guides-google-analytics-ios-download.png)
 
 Final you will have 2 file in root project folder like below image
 
-![](assets/guides-google-analytics-config-file.png)
+![](/halanews-document/docs/assets/guides-google-analytics-config-file.png)

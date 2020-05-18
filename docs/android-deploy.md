@@ -24,9 +24,9 @@ If building debug version then you should not use `--prod` for save time
 
 4. If have the Gradle Sync question you can simply answer `Yes`
 
-![](assets/build-android-import-android-studio.png)
+![](/halanews-document/docs/assets/build-android-import-android-studio.png)
 
-![](assets/build-android-gradle-sync.png)
+![](/halanews-document/docs/assets/build-android-gradle-sync.png)
 
 ### Verifying Gradle Sync
 
@@ -36,7 +36,7 @@ When Gradle Sync process completed, make sure it show `synced successfully` and 
 
 Otherwise, please try [Do Refactor Gradle](android-deploy.md#do-refactor-gradle) first before contact support.
 
-![](assets/build-android-gradle-good.png)
+![](/halanews-document/docs/assets/build-android-gradle-good.png)
 
 ### Do Refactor Gradle
 
@@ -50,7 +50,7 @@ If your Gralde Sync process have `WARNING` with RED color and failed, can not bu
 
 1. Check if Android Studio suggest Refactor then click and `Do Refactor`, else select other issue in above step
 
-![](assets/build-android-refactor.png)
+![](/halanews-document/docs/assets/build-android-refactor.png)
 
 > After check and `Do Refactor` all issues in `Gradle Sync Issues` still not get `synced successfully` at [Verifying Gradle Sync](android-deploy.md#verifying-gradle-sync) then you can contact us with screenshot of issues
 

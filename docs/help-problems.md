@@ -14,7 +14,7 @@ All problems will update here. Please try find your problems before [contact us]
 
 #### Failed to install 'onesignal-cordova-plugin': Error: pod: Command failed with exit code 31
 
-![](assets/problems-pod-install-code-31.png)
+![](/halanews-document/docs/assets/problems-pod-install-code-31.png)
 
 Reason: your Mac don't have Cocoapods or need update Cocoapods
 

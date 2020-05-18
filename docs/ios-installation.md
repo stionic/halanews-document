@@ -46,4 +46,4 @@ pod setup
 pod repo update
 ```
 
-![](assets/build-ios-pod-repo-update.png)
+![](/halanews-document/docs/assets/build-ios-pod-repo-update.png)

@@ -10,12 +10,12 @@ Admob is Google’s advertising platform for mobile apps. It allows app develope
 
 * Click `Apps -> ADD APP` and do follow instruction
 
-![](assets/guides-admob-create-app.png)
+![](/halanews-document/docs/assets/guides-admob-create-app.png)
 
 * `Next: Create Ad Unit`, select AD format, application support Banner, Interstitial and Rewards ads. Then input `Ad unit name` and click `Create Ad Unit`
 
-![](assets/guides-admob-create-unit.png)
+![](/halanews-document/docs/assets/guides-admob-create-unit.png)
 
 * When Ad unit successfully created you just config [App ID (1)](getting-started-config.md#google-admob-ads-optional) and [Ad Unit ID (2)](guides-setting.md#general-setting)
 
-![](assets/guides-admob-done.png)
+![](/halanews-document/docs/assets/guides-admob-done.png)

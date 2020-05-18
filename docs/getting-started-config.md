@@ -16,7 +16,7 @@ Open en.json file with a text editor and edit `general.config.url` into your URL
 
 Tips: you can open your website in browser and wait all load done then copy url in Address bar
 
-![](assets/config-website-url.png)
+![](/halanews-document/docs/assets/config-website-url.png)
 
 ## Terms and Conditions page
 
@@ -38,7 +38,7 @@ Package name (id) normal is reverse of your website domain. Example hala.stionic
 
 You also need config `Application *` in `WordPress admin -> Stionic -> General`
 
-![](assets/config-application-information.png)
+![](/halanews-document/docs/assets/config-application-information.png)
 
 ## Google Firebase Analytics
 
@@ -61,7 +61,7 @@ Then run follow command for remove Firebase Analytics plugin:
 ionic cordova plugin rm cordova-plugin-firebase-analytics
 ```
 
-![](assets/config-remove-google-analytics.png)
+![](/halanews-document/docs/assets/config-remove-google-analytics.png)
 
 ## Deeplinks (optional)
 
@@ -87,7 +87,7 @@ change urlscheme to myapp, then every time the device open myapp:// will open yo
 
 change yourdomain.com to example.com, then every time browser open http://example.com will open your application.
 
-![](assets/config-deeplinks.png)
+![](/halanews-document/docs/assets/config-deeplinks.png)
 
 You also need config in `WordPress admin -> Stionic -> DeepLinks`, and now your app will support deeplinks open app from website by click Application button.
 
@@ -107,7 +107,7 @@ Open `/package.json` file and edit AdMob App ID `cordova.plugins.com-stionic-adm
 
 Read document [Find your app IDs](https://support.google.com/admob/answer/7356431?hl=en).
 
-![](assets/config-admob-app-id.png)
+![](/halanews-document/docs/assets/config-admob-app-id.png)
 
 ## Facebook native SDK (removed)
 
@@ -118,4 +118,4 @@ Read document [Find your app IDs](https://support.google.com/admob/answer/735643
 
 Open `/package.json` file and edit `cordova.plugins.cordova-plugin-facebook4`
 
-![](assets/config-facebook-native-sdk.png) -->
+![](/halanews-document/docs/assets/config-facebook-native-sdk.png) -->

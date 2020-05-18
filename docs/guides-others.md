@@ -10,7 +10,7 @@ Our Stionic core plugin added Stionic application panel when edit posts / pages 
 
 If when edit posts / pages not see it then you need enable in `More tools & options -> Options`
 
-![](assets/guides-others-stionic-application-panel.png)
+![](/halanews-document/docs/assets/guides-others-stionic-application-panel.png)
 
 ### Show posts in Video / Images tab
 
@@ -18,7 +18,7 @@ Video and Images tab in home page of application show posts have format is Play 
 
 When edit posts you just setting format and save.
 
-![](assets/guides-others-posts-format.png)
+![](/halanews-document/docs/assets/guides-others-posts-format.png)
 
 ### Show reward ads for read posts
 
@@ -36,7 +36,7 @@ Empty - not required view Rewards ads for this posts
 
 The home page slide will display sticky posts, just set "Stick this post to the front page" while editing posts.
 
-![](assets/guides-others-homepage-slide.png)
+![](/halanews-document/docs/assets/guides-others-homepage-slide.png)
 
 ## Categories Images
 
@@ -58,4 +58,4 @@ Maybe you want to show some WordPress pages in Side menu of application like Con
 
 Already support and so easy, when edit WordPress pages just check `Show in application` in Stionic application panel.
 
-![](assets/guides-others-show-page-in-menu.png)
+![](/halanews-document/docs/assets/guides-others-show-page-in-menu.png)

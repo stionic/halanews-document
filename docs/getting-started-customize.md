@@ -14,7 +14,7 @@ Ionic can run the application on your computer browser. It’s so easy to custom
 
 Run [`ionic serve`](https://ionicframework.com/docs/v3/cli/serve/) to start a local dev server for app dev/testing:
 
-![](assets/customize-run-on-browser.png)
+![](/halanews-document/docs/assets/customize-run-on-browser.png)
 
 ## Customize intro slide
 
@@ -22,13 +22,13 @@ Intro slide image show only first time when users open app after installed. You 
 
 Default it will not show, for active intro slide image in your app you need active in `/src/app/app.component.ts` like image below
 
-![](assets/customize-active-intro.png)
+![](/halanews-document/docs/assets/customize-active-intro.png)
 
 Default intro slide will have 3 images locate in `assets/imgs/intro` you can replace it.
 
 For remove or add more images you need edit `/src/app/app.html`. In `ion-slides` tag each `ion-slide` is one image, just duplicate then change `<img src` or remove if you want
 
-![](assets/customize-change-intro.png)
+![](/halanews-document/docs/assets/customize-change-intro.png)
 
 ## Login & Social login
 
@@ -64,7 +64,7 @@ define('JWT_AUTH_CORS_ENABLE', true);
 
 <!-- If you want allow users login with Facebook, install [Nextend Social Login](https://wordpress.org/plugins/nextend-facebook-connect/) and config it.
 
-![](assets/customize-social-login-nextend-facebook.png)
+![](/halanews-document/docs/assets/customize-social-login-nextend-facebook.png)
 
 And in [Facebook developer app dashboard](https://developers.facebook.com/apps) you need to provide platform information for each platform you deliver your app on Facebook app.
 
@@ -94,7 +94,7 @@ Change the hex color and all corresponding colors in the application will change
 
 You can use [Ionic colors tool](https://ionicframework.com/docs/theming/colors#new-color-creator) if want to add new color
 
-![](assets/customize-change-colors.png)
+![](/halanews-document/docs/assets/customize-change-colors.png)
 
 
 ## Multiple languages & Translate app
@@ -103,7 +103,7 @@ The application support multiple languages, archived at `/src/assets/i18n`
 
 Include config file (languages.json) and translated files (en.json, vi.json,…)
 
-![](assets/customize-multiple-languages-config.png)
+![](/halanews-document/docs/assets/customize-multiple-languages-config.png)
 
 To add multiple languages, duplicate any translated file and rename it to the language identifier. Then declarations in `languages.json`.
 
@@ -117,4 +117,4 @@ To translate the application, simply edit the `/src/assets/i18n/[language].json`
 
 > Data in JSON format, just edit the value, never modify the key and the value of key start with `"_"` if you don’t understand.
 
-![](assets/customize-multiple-languages-translate.png)
+![](/halanews-document/docs/assets/customize-multiple-languages-translate.png)
