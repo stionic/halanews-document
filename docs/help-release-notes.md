@@ -6,6 +6,12 @@ sidebar_label: Release notes
 
 All notable changes to this project will be documented here.
 
+## 1.1.3
+- Change sticky slides and menu style
+- Update cordova-android@9
+- Update cordova plugins
+- Fix some small bugs
+
 ## 1.1.2
 - Update Ionic 5
 - Add Logo in header home page
