@@ -13,6 +13,8 @@ For build Ionic/Cordova sources to iOS XCode project simple run follow command:
 ionic cordova platform add ios
 ```
 
+> first time add ios platform maybe take long time for install cocoapods, so please wait...
+
 After run command, it will create `/platforms/ios`
 
 ![](/halanews-document/docs/assets/build-ios-add-platform.png)
