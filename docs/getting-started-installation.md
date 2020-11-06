@@ -22,7 +22,7 @@ If you’re new to the command line, please read [Ionic Command line tutorial](h
 
 1. Simply follow the prompts in the installer.
 
-1. Run the Terminal installation script: `npm install -g cordova ionic`
+1. Run the Terminal installation script: `npm i -g cordova @ionic/cli`
 
 ## Install WordPress plugin
 
@@ -40,13 +40,17 @@ Extract Sources folder in .zip you get when purchase to wherever you want, you a
 
 1. `cd Sources`
 
-1. Run the Node modules initialization script `npm install`
+1. Run the Node modules initialization script `npm install`.
 
 ![](/halanews-document/docs/assets/node-modules-install.png)
+
+* Ignore all `WARN` and NEVER run audit fix if you dont know what it is.
 
 ## Verifying Installation
 
 After installation process you need check and verify that all working fine by run `ionic info`
+
+(Version information maybe different, higher no problems)
 
 ![](/halanews-document/docs/assets/verifying-installation.png)
 
@@ -59,7 +63,10 @@ root-directory
 ├── resources
 ├── src
 │   ├── app
+│   │   ├── classes
 │   │   ├── components
+│   │   ├── const
+│   │   ├── directives
 │   │   ├── home
 │   │   ├── pages
 │   │   ├── pipes
