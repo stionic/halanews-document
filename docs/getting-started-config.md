@@ -36,7 +36,8 @@ Just open `/config.xml` file with a text editor and edit
 
 Package name (id) normal is reverse of your website domain. Example hala.stionic.com -> com.stionic.hala
 
-You also need config `Application *` in `WordPress admin -> Stionic -> General`
+> You need config `Application *` in `WordPress admin -> Stionic -> General`<br/>
+Package name (id) in config.xml, Apple App ID can config later after you Adding a New App in AppStore Connect
 
 ![](/halanews-document/docs/assets/config-application-information.png)
 

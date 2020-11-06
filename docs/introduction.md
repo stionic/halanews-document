@@ -19,4 +19,4 @@ As a result you will have a mobile application WordPress website very fast. And 
 
 > [Release notes](help-release-notes.md)
 
-> You need check all [Config steps](getting-started-config.md) before [Build](build.md), otherwise you will run into problems.
+> After [Installation](getting-started-installation.md), You need check all [Config steps](getting-started-config.md) before [Build](build.md), otherwise you will run into problems.
