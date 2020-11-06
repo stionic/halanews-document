@@ -94,7 +94,7 @@ Open it with a text editor and edit value
 
 Change the hex color and all corresponding colors in the application will change.
 
-You can use [Ionic colors tool](https://ionicframework.com/docs/theming/colors#new-color-creator) if want to add new color
+You can use <a href="https://ionicframework.com/docs/theming/colors#new-color-creator" target="_blank">Ionic colors tool</a> if want to add new color
 
 ![](/halanews-document/docs/assets/customize-change-colors.png)
 
@@ -111,7 +111,7 @@ To add multiple languages, duplicate any translated file and rename it to the la
 
 > Example: duplicate `en.json` and rename to `vi.json`. Then declarations in `languages.json` as image above.
 
-> IMPORTANT: language file name can not have special characters (just a-z). We highly recommend search your [language code ISO 639-1 two-letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for auto detect device language.
+> IMPORTANT: language file name can not have special characters (just a-z). We highly recommend search your <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">language code ISO 639-1 two-letter</a> if you want to auto detect device language.
 
 [language] below is a replacement for translated file (en.json, vi.json,…)
 

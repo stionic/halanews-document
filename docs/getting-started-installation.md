@@ -10,7 +10,7 @@ sidebar_label: Installation
 
 This product was developed based on the Ionic framework, so you need to know about command-line tools. Something like Windows Command Prompt, Terminal,…
 
-If you’re new to the command line, please read [Ionic Command line tutorial](http://blog.ionicframework.com/new-to-the-command-line/).
+If you’re new to the command line, please read <a href="http://blog.ionicframework.com/new-to-the-command-line/" target="_blank">Ionic Command line tutorial</a>
 
 > In Windows, please do not use PowerShell for this project, Command Prompt (cmd) recommended.
 

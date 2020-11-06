@@ -67,7 +67,7 @@ Else, you do not want use this function then need remove config follow below:
 
 ## Deeplinks (optional)
 
-[Ionic Deeplinks Plugin](https://github.com/ionic-team/ionic-plugin-deeplinks) makes it easy to respond to deeplinks through custom URL schemes and Universal/App Links on iOS and Android.
+<a href="https://github.com/ionic-team/ionic-plugin-deeplinks" target="_blank">Ionic Deeplinks Plugin</a> makes it easy to respond to deeplinks through custom URL schemes and Universal/App Links on iOS and Android.
 
 That means instead of opening your WordPress website in a browser, your device will open the app.
 
@@ -81,13 +81,13 @@ Open `/package.json` file with a text editor and edit `cordova.plugins.ionic-plu
 
 `DEEPLINK_HOST` – the host that will respond to deeplinks. For example, if we want example.com/product/cool-beans to open in our app, we’d use example.com here.
 
-`ANDROID_PATH_PREFIX` – (optional): specify which path prefix our Android app should open from [more info](https://developer.android.com/guide/topics/manifest/data-element.html)
+`ANDROID_PATH_PREFIX` – (optional): specify which path prefix our Android app should open from <a href="https://developer.android.com/guide/topics/manifest/data-element.html" target="_blank">more info</a>
 
 Example:
 
 change urlscheme to myapp, then every time the device open myapp:// will open your application.
 
-change yourdomain.com to example.com, then every time browser open http://example.com will open your application.
+change yourdomain.com to example.com, then every time browser open `http://example.com` will open your application.
 
 ![](/halanews-document/docs/assets/config-deeplinks.png)
 
@@ -97,23 +97,23 @@ In case you want phone automatic open app when open url (without users action) t
 
 Each website/app will have different config, you can read Offical document here:
 
-- Android (App link): [Declare website associations](https://developer.android.com/training/app-links/verify-site-associations#web-assoc)
+- Android (App link): <a href="https://developer.android.com/training/app-links/verify-site-associations#web-assoc" target="_blank">Declare website associations</a>
 
-- iOS (Universal link): [Add the Apple App Site Association File](https://developer.apple.com/documentation/safariservices/supporting_associated_domains_in_your_app#3001215)
+- iOS (Universal link): <a href="https://developer.apple.com/documentation/safariservices/supporting_associated_domains_in_your_app#3001215" target="_blank">Add the Apple App Site Association File</a>
 
 ## Google AdMob ads (optional)
 
-If you want to show [AdMob ads](guides-admob-ads.md) in your app then need to config AdMob App ID as [AdMob](https://developers.google.com/admob/ios/quick-start#update_your_infoplist) [required](https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml)
+If you want to show [AdMob ads](guides-admob-ads.md) in your app then need to config AdMob App ID as <a href="https://developers.google.com/admob/ios/quick-start#update_your_infoplist" target="_blank">AdMob</a> <a href="https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml" target="_blank">required</a>
 
 Open `/package.json` file and edit AdMob App ID `cordova.plugins.com-stionic-admob-free`
 
-Read document [Find your app IDs](https://support.google.com/admob/answer/7356431?hl=en).
+Read document <a href="https://support.google.com/admob/answer/7356431?hl=en" target="_blank">Find your app IDs</a>.
 
 ![](/halanews-document/docs/assets/config-admob-app-id.png)
 
 ## Facebook native SDK (removed)
 
-[Apple required Apple sign in](https://developer.apple.com/app-store/review/guidelines/#sign-in-with-apple) if your app have other social login. If not they will reject your app in Store. So Facebook login current temp removed.
+<a href="https://developer.apple.com/app-store/review/guidelines/#sign-in-with-apple" target="_blank">Apple required Apple sign in</a> if your app have other social login. If not they will reject your app in Store. So Facebook login current temp removed.
 
 <!-- 
 > You need config it if want to use/customize Facebook native SDK in application (like Social login, App events,..)
