@@ -8,9 +8,11 @@ sidebar_label: Installation
 
 ## New to the Command Line?
 
-This product was developed based on the Ionic framework, so you need to know about command-line tools. Something like Windows Command Prompt, PowerShell, Terminal,…
+This product was developed based on the Ionic framework, so you need to know about command-line tools. Something like Windows Command Prompt, Terminal,…
 
 If you’re new to the command line, please read [Ionic Command line tutorial](http://blog.ionicframework.com/new-to-the-command-line/).
+
+> In Windows, please do not use PowerShell for this project, Command Prompt (cmd) recommended.
 
 ## Install Cordova and Ionic framework
 
