@@ -32,7 +32,7 @@ If building debug version then you should not use `--prod` for save time
 
 You need make sure that all working fine before continue Deploy Android application.
 
-When Gradle Sync process completed, make sure it show `synced successfully` and have no any `WARNING` with RED color
+When Gradle Sync process completed, make sure it show `Project setup: successful` and have no any `WARNING` with RED color
 
 Otherwise, please try [Do Refactor Gradle](android-deploy.md#do-refactor-gradle) first before contact support.
 
@@ -52,7 +52,7 @@ If your Gralde Sync process have `WARNING` with RED color and failed, can not bu
 
 ![](/halanews-document/docs/assets/build-android-refactor.png)
 
-> After check and `Do Refactor` all issues in `Gradle Sync Issues` still not get `synced successfully` at [Verifying Gradle Sync](android-deploy.md#verifying-gradle-sync) then you can contact us with screenshot of issues
+> After check and `Do Refactor` all issues in `Gradle Sync Issues` still not get `Project setup: successful` at [Verifying Gradle Sync](android-deploy.md#verifying-gradle-sync) then you can contact us with screenshot of issues
 
 ## Build and Run your app
 
