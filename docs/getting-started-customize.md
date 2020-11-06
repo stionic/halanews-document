@@ -16,6 +16,8 @@ Run [`ionic serve`](https://ionicframework.com/docs/v3/cli/serve/) to start a lo
 
 ![](/halanews-document/docs/assets/customize-run-on-browser.png)
 
+Then you can enable Simulate Mobile Devices with Device Mode in your Browser Dev Tools (F12) to have good view.
+
 ## Customize intro slide
 
 Intro slide image show only first time when users open app after installed. You can use it for show Tips, Guides, Introduction your company,...
@@ -115,6 +117,6 @@ To add multiple languages, duplicate any translated file and rename it to the la
 
 To translate the application, simply edit the `/src/assets/i18n/[language].json` file.
 
-> Data in JSON format, just edit the value, never modify the key and the value of key start with `"_"` if you don’t understand.
+> Data in JSON format, just edit the value, never modify the key and the value of key start with character `"_"` if you don’t understand what it is.
 
 ![](/halanews-document/docs/assets/customize-multiple-languages-translate.png)
