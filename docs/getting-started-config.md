@@ -43,26 +43,27 @@ Package name (id) in config.xml, Apple App ID can config later after you Adding 
 
 ## Google Firebase Analytics
 
-Our app support Google Firebase Analytics and it required config, if not will lead to problem when build.
+Our app support Google Firebase Analytics and it `REQUIRED` config or remove, otherwise will lead to problem when build.
 
-You can read [Guide Googgle Firebase Analytics](guides-google-analytics.md) document.
+If want to use, You can read [Guide Googgle Firebase Analytics](guides-google-analytics.md) document.
 
-If you do not want use this function then need remove config for build without problem.
+Else, you do not want use this function then need remove config follow below:
 
-Open `/config.xml` file with a text editor and remove 2 line
+1. Open `/config.xml` file with a text editor and remove 2 line
 
 ```
 <resource-file src="google-services.json" target="app/google-services.json" />
 ...
 <resource-file src="GoogleService-Info.plist" />
 ```
-Then run follow command for remove Firebase Analytics plugin:
-
-```
-ionic cordova plugin rm cordova-plugin-firebase-analytics
-```
 
 ![](/halanews-document/docs/assets/config-remove-google-analytics.png)
+
+2. Open `/config.xml` file with a text editor and remove `cordova.plugins.cordova-plugin-firebase-analytics`
+
+![](/halanews-document/docs/assets/config-remove-google-analytics-package.png)
+
+3. Remove folder `/plugins`, `/platforms` if it exists.
 
 ## Deeplinks (optional)
 
