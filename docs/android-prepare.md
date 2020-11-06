@@ -16,6 +16,10 @@ After run command, it will create `/platforms/android`
 
 ![](/halanews-document/docs/assets/build-android-add-platform.png)
 
+> This add platform step need complete without any problem!
+
+![](/halanews-document/docs/assets/build-android-add-platform-complete.png)
+
 ## Change Icons and Splash screens
 
 Icons means that the image represents your application, while the splash screens is the image that shows when you open the application.
