@@ -20,7 +20,10 @@ Reason: your Mac don't have Cocoapods or need update Cocoapods
 
 Solution:
 
-* Run `pod repo update`
+* Run
+    ```
+    pod repo update
+    ```
 * If you get error `pod: command not found` then you need [install Cocoapods](ios-installation.md#install-cocoapods) first
 * Remove iOS platform and add again
 

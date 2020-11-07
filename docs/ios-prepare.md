@@ -10,6 +10,7 @@ sidebar_label: Prepare
 For build Ionic/Cordova sources to iOS XCode project simple run follow command:
 
 ```
+pod repo update
 ionic cordova platform add ios
 ```
 
