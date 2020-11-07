@@ -6,6 +6,13 @@ sidebar_label: Release notes
 
 All notable changes to this project will be documented here.
 
+## 1.1.4
+- Update packages, plugins, support AndroidX
+- Optimized code, better, easy customize more
+- Add custom font
+- Upgrade contact form 7 validate
+- Fix some small bugs
+
 ## 1.1.3
 - Change sticky slides and menu style
 - Update cordova-android@9
