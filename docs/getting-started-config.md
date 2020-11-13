@@ -49,9 +49,11 @@ If want to use, You can read [Guide Googgle Firebase Analytics](guides-google-an
 
 Else, you do not want use this function then need remove config follow below:
 
-1. Open `/config.xml` file with a text editor and remove 2 line
+1. Open `/config.xml` file with a text editor and remove 3 line
 
 ```
+<preference name="GradlePluginGoogleServicesEnabled" value="true" />
+...
 <resource-file src="google-services.json" target="app/google-services.json" />
 ...
 <resource-file src="GoogleService-Info.plist" />
@@ -59,7 +61,7 @@ Else, you do not want use this function then need remove config follow below:
 
 ![](/halanews-document/docs/assets/config-remove-google-analytics.png)
 
-2. Open `/config.xml` file with a text editor and remove `cordova.plugins.cordova-plugin-firebase-analytics`
+2. Open `/package.json` file with a text editor and remove `cordova.plugins.cordova-plugin-firebase-analytics`
 
 ![](/halanews-document/docs/assets/config-remove-google-analytics-package.png)
 
