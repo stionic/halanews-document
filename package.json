@@ -10,7 +10,7 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.40",
+    "@docusaurus/core": "^2.4.3",
     "@docusaurus/preset-classic": "^2.0.0-alpha.40",
     "classnames": "^2.2.6",
     "global": "^4.4.0",
